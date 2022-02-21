@@ -1,0 +1,118 @@
+div#principal{
+    background-color: #ffffff;
+    margin: 2%;
+    border-radius: 8px;
+    font-family: 'Lucida Console', serif;
+}
+
+body{
+    background-color: #000000;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    color: rgb(219, 182, 14);
+    text-align: center;
+    font-size: 40pt;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 2%;
+    font-family: 'cooperplate';
+    font-weight: bold;
+}
+
+.logo{
+    height: auto;
+    width: 150px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.produto{
+    flex: 0 1 auto;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+}
+
+.produto img{
+    height: auto;
+    width: 85%;
+    border: 5px solid transparent;
+    padding: 5px;
+    border-color: black;
+    align-content: center;
+}
+
+.produto p{
+    text-align: center;
+}
+
+.produto h2{
+    text-align: center;
+}
+
+.produto:hover{
+    width: 35%;
+}
+
+header h1{
+    margin: 0;
+}
+
+nav#menu{
+    display: flex;
+    background-color: rgb(219, 182, 14);
+    justify-content: space-evenly;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav#menu li{
+    display: inline-flex;
+    padding: 10px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover{
+    background-color: #000000;
+    
+}
+
+li a{
+    color:#000000;
+    text-decoration: none;
+    font-size: 42px;
+}
+
+footer {
+    border-top: solid;
+    border-color: #000000;
+    border-top-width: 2px;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000000;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
